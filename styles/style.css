@@ -40,12 +40,12 @@ body{
 /* end nav section style */
 /* start hero section style */
 .hero-main-container{
-    
     background-image: url('../assets/Hero-bg.png');
     border-top:  1px dashed rgba(13, 19, 33, 0.1);
     border-bottom: 1px dashed rgba(13, 19, 33, 0.1);
     border-width: thick;
     margin: 0 auto;
+    margin-bottom:127px;
 }
 
 .hero-content-container{
@@ -92,5 +92,82 @@ body{
     font-weight: 600;
     cursor: pointer;
 }
-
 /* end hero section style */
+
+#main-container{
+    max-width:1140px;
+    height: 1395px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    
+}
+
+/* start why web development */
+#Why-Web-Development-container{
+    max-width: 946px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.why-web-dev-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 106px;
+}
+
+.why-web-dev-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin: 24px 0px;
+}
+
+.why-web-dev-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* start I will Do Coding and Change The World */
+.about-coding-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 99px;
+}
+
+.about-coding-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 16px 0px;
+}
+
+.about-coding-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#learn-more-button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 32px 0px;
+}
+/* End I will Do Coding and Change The World */
+
+/* end why web development */
