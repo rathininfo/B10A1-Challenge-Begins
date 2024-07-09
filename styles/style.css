@@ -9,8 +9,9 @@ body{
 
 #header-container{
     max-width: 1440px;
+    margin: 0 auto;
 }
-
+/*start nav section style */
 .nav-container{
     max-width: 1140px;
     display: flex;
@@ -36,3 +37,60 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+/* end nav section style */
+/* start hero section style */
+.hero-main-container{
+    
+    background-image: url('../assets/Hero-bg.png');
+    border-top:  1px dashed rgba(13, 19, 33, 0.1);
+    border-bottom: 1px dashed rgba(13, 19, 33, 0.1);
+    border-width: thick;
+    margin: 0 auto;
+}
+
+.hero-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 652px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 582px;
+    max-width: 998px;
+}
+
+.hero-title{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin: 24px 0px;
+}
+
+.hero-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+
+.contact-button{
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* end hero section style */
