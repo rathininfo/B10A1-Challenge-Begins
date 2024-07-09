@@ -46,7 +46,7 @@ body{
     border-bottom: 1px dashed rgba(13, 19, 33, 0.1);
     border-width: thick;
     margin: 0 auto;
-    margin-bottom:127px;
+    margin-bottom:100px;
 }
 
 .hero-content-container{
@@ -97,10 +97,11 @@ body{
 
 #main-container{
     max-width:1140px;
-    height: 1395px;
+    height: 1640px;
     margin: 0 auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 35px;
     
 }
 
@@ -116,7 +117,9 @@ body{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 106px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    padding: 30px;
 }
 
 .why-web-dev-title{
@@ -141,6 +144,8 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 99px;
+    background-color: #fff;
+    padding: 30px;
 }
 
 .about-coding-title{
@@ -173,8 +178,10 @@ body{
 
 /* start I will help People by creating Modern Web System style */
 .help-people-container{
-    margin-top: 138px;
-    margin-bottom: 138px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    padding: 30px;
 }
 
 .help-people-content{
