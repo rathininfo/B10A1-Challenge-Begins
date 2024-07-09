@@ -156,9 +156,10 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    margin: 24px 0px;
 }
 
-#learn-more-button{
+.learn-more-button{
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -166,8 +167,37 @@ body{
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
-    margin: 32px 0px;
 }
 /* End I will Do Coding and Change The World */
+
+/* start I will help People by creating Modern Web System style */
+.help-people-container{
+    margin-top: 138px;
+    margin-bottom: 138px;
+}
+
+.help-people-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.help-people-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.help-people-description{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+/* end I will help People by creating Modern Web System style */
 
 /* end why web development */
