@@ -18,6 +18,7 @@ body{
     margin: 0 auto;
     justify-content: space-between;
     padding: 30px 0px;
+    align-items: center;
 }
 
 .nav-title{
