@@ -351,6 +351,7 @@ margin: 8px 0px;
     border-radius: 16px;
     background-position: center;
     background-size:cover;
+    margin-bottom: 89px;
 }
 
 .support-content{
@@ -359,7 +360,7 @@ margin: 8px 0px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 350px;
+    height: 330px;
 }
 
 .support-title{
@@ -391,10 +392,10 @@ input[type=text]{
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
 }
 
 ::placeholder {
-    padding: 19px 20px 19px 20px;
     color: rgba(13, 19, 33, 0.4);
     font-size: 16px;
     font-weight: 400;
