@@ -258,6 +258,7 @@ iframe{
 /* start my current target style */
 .current-target-container{
     margin-top: 149px;
+    margin-bottom: 111px;
 }
 
 .current-target-content{
@@ -338,3 +339,18 @@ margin: 8px 0px;
     margin: 24px 0px;
 }
 /* end card section style */
+
+
+/* start support section style */
+.support-section-container{
+    background-image: 
+    linear-gradient( rgba(0, 0, 0, 0.2),  rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    height: 314px;
+    border-radius: 16px;
+    background-position: center;
+    background-size:cover;
+  
+}
+/* end support section style */
